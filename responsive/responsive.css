@@ -1,0 +1,159 @@
+@media(max-width:1040px){
+    .fixdwidth {
+        width:100%;
+        margin: auto;
+      }
+      .header .header-right ul {
+        padding-right: 16px;
+      
+}
+
+@media(max-width:900px){
+    .service-box {
+        width: 23%;
+        margin: 1px;
+      }
+}
+@media(max-width:800px){
+    .header .header-right {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0px;
+      }
+      .header .header-left {
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+      }
+      .service-boxs {
+        padding: 0px 0px;
+      }
+      .service-box {
+        width: 48%;
+        margin: 8px 6px;
+        padding: 23px;
+      }
+}
+@media(max-width:700px){
+    .footer-2{}
+    .footer-2 h1{
+        font-size: 16px;
+    }
+}
+@media(max-width:662px){
+    .header .header-right ul {
+        padding-right: 0;
+      }
+    .banner-section {
+        padding: 100px 0px;
+        
+      }
+    .service-box {
+        width: 47%;
+    }
+
+    .a-c-right h1 {
+        font-size: 21px;
+      }
+    .a-c-right p {
+        font-size: 12px;
+      }
+
+
+      .contact {
+        text-align: center;
+        padding: 22px;
+      }
+}
+
+@media(max-width:518px){
+    .header .header-right ul li a {
+        padding: 0px 6px;
+      }
+      .banner-section {
+        padding: 43px 0px;
+      }
+      .banner-section h1 {
+        padding: 9px;
+        font-size: 21px;
+      }
+      .banner-section h4 {
+        font-size: 13px;
+      }
+
+      .banner-section a {
+        padding: 8px 16px;
+        font-size: 11px;
+      }
+
+      .about h1 {
+        padding-top: 30px;
+        font-size: 23px;
+      }
+
+
+      .service-box h2 {
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+      .service-box p {
+        font-size: 13px;
+      }
+
+      .contact-box {
+        width: 31.33%;
+        margin: 4px;
+      }
+
+      .contact-box h3 {
+        font-weight: 300;
+        font-size: 13px;
+      }
+    
+}
+
+@media(max-width:470px){
+    .header .header-left a {
+        font-size: 17px;
+      }
+      .header .header-right ul li a {
+        font-size: 11px;
+      }
+      .service-box {
+        width: 100%;
+      }
+
+      .a-c-left {
+        display: none;
+      }
+
+      .a-c-right {
+        width: 100%;
+      }
+}
+@media(max-width:456px){
+    .contact-box {
+        width: 48%;
+        float: left;
+      }
+
+
+}
+
+@media(max-width:356px){
+    .contact-box {
+        width: 100%;
+        margin: 14px 0px;
+      }
+
+}
+@media(max-width:320px){
+    .header .header-right ul li a {
+        font-size: 8px;
+      }
+    .banner-section h4 {
+        font-size: 12px;
+        width: 60%;
+        margin: auto;
+      }
+}

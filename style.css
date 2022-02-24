@@ -1,0 +1,221 @@
+/* difalt css */
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.fixdwidth{
+    width: 1024px;
+    margin: auto;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header */
+.header-section{
+    background-color: #20B698;
+}
+.header{}
+.header .header-left{
+    width: 30%;
+    float: left;
+    font-size: 30px;
+}
+.header .header-left a{
+    color: #fff;
+}
+.header .header-right{
+    width: 70%;
+    text-align: right;
+    display: inline-block;
+    
+}
+.header .header-right ul{
+    list-style: none;
+    padding-top: 6px;
+}
+.header .header-right ul li{
+    display: inline-block;
+}
+.header .header-right ul li a{
+    display: inline-block;
+    color: #fff;
+    padding: 0px 10px;
+    
+    
+}
+
+/* banner-section */
+.banner-section{
+    background: url(./header-bg01.jpg) center center no-repeat ;
+    background-size: cover;
+    padding: 150px 0px;
+    text-align: center;
+    color: #fff;
+    
+}
+.banner-section h1{
+    padding: 15px;
+}
+.banner-section h4{
+    
+}
+.banner-section a{
+    padding: 12px 23px;
+    border: 2px solid#fff;
+    display: inline-block;
+    margin: 25px;
+    color: #fff;
+    position: relative;
+    border-radius: 5px;
+    z-index: 1;
+}
+.banner-section a::after{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 00%;
+    background-color: #03291E;
+    border-radius: 5px;
+    z-index: -1;
+    transition: .5s
+}
+.banner-section a:hover::after{
+    width: 100%;
+}
+
+/* service-section */
+.service-section{
+    border-bottom: 2px solid #0DBF9B;
+}
+.service{
+padding: 30px;
+
+}
+.service-top{
+    padding-bottom:30px;
+    text-align: center;
+}
+.service-top h1{}
+.service-top p{
+    padding: 10px 0px;
+}
+.service-boxs{
+    padding: 50px 0px;
+}
+.service-box{
+    width: 25%;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+}
+.service-box span{
+    color: #0DBF9B;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+.service-box span i{
+    margin-bottom: 20px;
+}
+.service-box h2{}
+.service-box p{}
+
+/* about-section */
+.about-section{
+    padding:19px 10px;
+}
+.about{
+text-align: center;
+}
+.about h1{
+    padding-top: 30px;
+}
+.about p{
+    padding: 15px 0px;
+}
+
+
+.about-conten{
+    margin: 30px 0px;
+}
+
+.a-c-left{
+    float: left;
+    width: 48%;
+}
+.a-c-left img{
+    max-width: 100%;
+}
+
+.a-c-right{
+    float: right;
+    width: 48%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.a-c-right h1{
+    padding-top: 0px;
+    font-weight: 300;
+}
+.a-c-right p{
+    padding-top: 0px;
+}
+
+
+/* cotact-section */
+.cotact-section{
+    background-color:#e9e9e9 ;
+}
+.contact{
+    text-align: center;
+    padding: 40px;
+}
+.contact h1{
+    padding: 20px;
+}
+.contact p{
+    color: #686868;
+}
+.contact-boxs{
+    padding: 40px 0px;
+}
+.contact-box{
+    width:33.33% ;
+    float: left;
+}
+.contact-box span{
+    font-size: 40px;
+    color: #20B698;
+}
+.contact-box h3{
+    font-weight: 300;
+}
+
+
+/* footer-1 */
+.footer-1{
+    background-color:#0DBF9B ;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+.footer-1 ul{}
+.footer-1 ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.footer-1 ul li a {
+    color: #fff;
+}
